@@ -1,1 +1,1 @@
-The Game is not completely finished, i will be pushing the as they come. :]
+The Game is not completely finished, i will be pushing the code as they come. :]
