@@ -4,6 +4,7 @@ public class Paddle
 {
     protected float speed ;
     protected Vector2 direction;
+    protected int score;
 
     public void Move(Vector2 direction,Rigidbody2D rb, float speed)
     {
