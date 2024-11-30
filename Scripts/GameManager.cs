@@ -34,9 +34,7 @@ public class GameManager : MonoBehaviour
     }
     public void PlayAgain()
     {
-        scoreL = 0 ;
-        scoreR = 0 ;
-
+        ResetText();
        over.SetActive(false);
        button.SetActive(false);  
        ResetBall();
@@ -48,6 +46,13 @@ public class GameManager : MonoBehaviour
        button.SetActive(true);
 
        Direction = ballScript.direction;
+    }
+    public void ResetText()
+    {
+        scoreL = 0 ;
+        scoreR = 0 ;
+        Left.text = "0";
+        Right.text = "0";
     }
     public void ResetBall()
     {

@@ -6,7 +6,6 @@ public class AudioManager : MonoBehaviour
 {
     AudioSource audioSource;
     AudioSource audioSource2;
-    public AudioClip click;
     public AudioClip boundary;
     public AudioClip paddle;
     public AudioClip gameOver;
@@ -15,12 +14,6 @@ public class AudioManager : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         audioSource2 = GetComponent<AudioSource>();
-    }
-
-    public void Click()
-    {
-        audioSource.clip = click;
-        audioSource.Play();
     }
     public void HitBoundary()
     {

@@ -17,13 +17,6 @@ public class Ball : MonoBehaviour
         ball = GetComponent<Rigidbody2D>();
         SetDirection();
     }
-            void Update()
-    {
-        if(Input.GetKeyUp(KeyCode.B))
-        {
-            Debug.Log(direction);
-        }
-    }
 
     void Start()
     {

@@ -8,6 +8,7 @@ public class PlayerOne : MonoBehaviour
     Vector2 _direction;
     Rigidbody2D rb;
     public float speed;
+    
 
     void Awake()
     {
